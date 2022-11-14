@@ -2,7 +2,7 @@ from network_tools import ip_to_dec
 from network_tools import ip_dec_to_tetrads
 
 def help():
-	print('Options:\n 0: help\n 1: IP to decemal format\n 2: IP in decemal format to tetrads\n99: to exit')
+	print('Options:\n 0: help\n 1: IP to decemal format\n 2: IP in decemal format to octets\n99: to exit')
 
 if __name__ == '__main__':
 	help()
